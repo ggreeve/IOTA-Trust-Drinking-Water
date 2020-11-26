@@ -20,7 +20,7 @@ A Raspberry Pi will be used to run the Node-Red  platform executing the followin
 Now we can truly have trust and transparency on the water quality data available
 
 ## Video Demo
-[Demonstration](https://youtu.be/w490AOxwYBI)
+[Video demonstration](https://youtu.be/w490AOxwYBI)
 
 
 (**FOR A STEP-BY-STEP GUIDE HAVE A LOOK AT THE [WIKI](https://github.com/ggreeve/IOTA-Trust-Drinking-Water/wiki)**)
