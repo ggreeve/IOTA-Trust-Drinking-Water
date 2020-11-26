@@ -9,3 +9,9 @@ We have heard many times about AI, IoT and Smart cities. But what if we want to 
 ## Software requirements
 
 * [Node-Red](https://nodered.org/) xxxxxxx
+* [Streams-http-gateway](https://github.com/iot2tangle/Streams-http-gateway) Rust based Streams implementation to send messages to the Tangle.
+* [Keepy](https://github.com/iot2tangle/Keepy) A Nodejs Streams Gateway Keeper.
+
+## Bill of materials
+
+* Raspberry Pi, I used a RPi 3B+
