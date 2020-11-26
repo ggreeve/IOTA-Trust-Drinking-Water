@@ -26,13 +26,10 @@ Now we can truly have trust and transparency on the water quality data available
 ## Video Demo
 [Video demonstration](https://youtu.be/w490AOxwYBI)
 
-# Short Node-Red introduction video [https://www.youtube.com/watch?v=vYreeoCoQPI](https://www.youtube.com/watch?v=vYreeoCoQPI)
+## Short Node-Red introduction video [https://www.youtube.com/watch?v=vYreeoCoQPI](https://www.youtube.com/watch?v=vYreeoCoQPI)
 
 
-(**FOR A STEP-BY-STEP GUIDE HAVE A LOOK AT THE [WIKI](https://github.com/ggreeve/IOTA-Trust-Drinking-Water/wiki)**)
-under development..
-
-
+## FOR A STEP-BY-STEP GUIDE HAVE A LOOK AT THE [WIKI](https://github.com/ggreeve/IOTA-Trust-Drinking-Water/wiki)
 
 
 ## Software requirements
