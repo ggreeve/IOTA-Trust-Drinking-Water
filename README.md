@@ -1,5 +1,5 @@
 # IOTA-Trust-Drinking-Water
-![cover](https://github.com/ggreeve/IOTA-Trust-Drinking-Water/ProjectImage.png?raw=true)
+![cover](https://github.com/ggreeve/IOTA-Trust-Drinking-Water/ProjectImage.png/?raw=true)
 ## Introduction
 (**FOR A DETAILED GUIDE AND DESCRIPTION CHECK THE [WIKI](https://github.com/ggreeve/IOTA-Trust-Drinking-Water/wiki)**)
 
