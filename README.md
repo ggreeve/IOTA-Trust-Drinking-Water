@@ -41,4 +41,6 @@ Now we can truly have trust and transparency on the water quality data available
 ## Bill of materials
 
 * Raspberry Pi, I used a RPi 3B+
+* Water Analyzer from [Endress Hauser](https://www.us.endress.com/en/field-instruments-overview/measurement-technologies/liquiline-transmitter-analyzer-sampler-platform?gclid=CjwKCAiA5IL-BRAzEiwA0lcWYumwld-m1dVSxhPQw8XWeJgQqzHCC6X8vQFYTjOQBfdo0VVnnC5D-hoCPboQAvD_BwE)
+* [pH Probe](https://www.us.endress.com/en/field-instruments-overview/liquid-analysis-product-overview/pH-digital-sensor-cps77d)
 
