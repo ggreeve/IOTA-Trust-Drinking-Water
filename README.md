@@ -23,8 +23,9 @@ A Raspberry Pi will be used to run the Node-Red platform executing the following
 * Utilize Verifiable Credentials, the service company can attach a VC to the sensors DiD to certify that the probes have been calibrated and the data reaching the tangle is accurate. Any entity interested in the data can then also verify the accuracy of the data by querying the history of the senors VC showing all past calibration certificates. 
 Now we can truly have trust and transparency on the water quality data available
 
-## Why did I use Decentralized Identifiers and Verifiable Credentials in my project.
-For Trusted Sensor Data.
+## Why did I use Decentralized Identifiers and Verifiable Credentials in my project?
+
+To insure trust in sensor data.
 Recently there has been a movement to secure valuable data by utilizing Distributed Ledger Technology for trust and transparacy.
 
 As an example Walmart recently issued a mandate to all its suppliers of leafy greens stating that they have to utilize “Blockchain” for proving its supply chain history.
