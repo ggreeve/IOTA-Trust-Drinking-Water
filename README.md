@@ -23,7 +23,31 @@ A Raspberry Pi will be used to run the Node-Red platform executing the following
 * Utilize Verifiable Credentials, the service company can attach a VC to the sensors DiD to certify that the probes have been calibrated and the data reaching the tangle is accurate. Any entity interested in the data can then also verify the accuracy of the data by querying the history of the senors VC showing all past calibration certificates. 
 Now we can truly have trust and transparency on the water quality data available
 
-## Video Demo
+## Why did I use Decentralized Identifiers and Verifiable Credentials in my project.
+For Trusted Sensor Data.
+Recently there has been a movement to secure valuable data by utilizing Distributed Ledger Technology for trust and transparacy.
+
+As an example Walmart recently issued a mandate to all its suppliers of leafy greens stating that they have to utilize “Blockchain” for proving its supply chain history.
+
+The idea is that the data is stored immutably and open to the regulatory agencies and the public.
+But storing the data on a DLT is creating a false sense of trust.
+
+We know the data is immutable, but how do we know the data was accurate before storing it on the DLT?  We do not.
+There is no way to proof that for example a IoT temperature sensor in a refrigerated food truck is storing accurate temperature readings on the DLT. What if the sensors is reporting just 2 degrees lower than actual?
+It could be a life or death difference...
+Looking at the data on the DLT then does not proof that the truck remained within the temperature range as expected and so you have the garbage-in-garbage-out problem.
+
+There is a solution to the problem:
+
+Decentralized Identifiers and Verifiable Credentials. https://www.w3.org/TR/did-core
+For these critical IoT sensors a unique identifier can be issued to them using “DID” Decentralized Identifiers and now that the sensors are uniquely identified we can also attach VC’s, Verifiable Credentials to them. 
+A certified company can take scheduled readings alongside the IoT sensor with lab certified temperature probes, maybe on quarterly basis, if the live data that the IoT sensor has attached to the DLT matches their instrument then they will issue a “certificates of accuracy” credential to the IoT sensor, only then can we be assured that the temperature of the truck is actually what is stored on the DLT.
+
+Now that the sensor can present its Verifiable Credential ( proof of accuracy) we can be assured that the data is accurate. The complete history of all the accuracy certificates are linked to the IoT sensor in a decentralized manner.
+
+![](https://i.imgur.com/IwDnfgj.png)
+
+## Video Demo of my Project
 * [Video demonstration of my project](https://youtu.be/w490AOxwYBI)
 
 * Short Node-Red introduction video [https://www.youtube.com/watch?v=vYreeoCoQPI](https://www.youtube.com/watch?v=vYreeoCoQPI)
