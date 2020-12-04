@@ -13,15 +13,16 @@ With the release of IoT2Tangle's [Streams-http-gateway](https://github.com/iot2t
 I am now able to show that a non-coder / tinkerer like me can do some pretty cool stuff with a Raspberry Pi, Node-Red and the IOTA Tangle
 
 ## Showcase
-My project will integrate with an industrial water analyzer typically used in drinking water systems to measure water quility. This device allows the connection of multiple sensors/probes to meausure, for instance pH Chlorine and ORP.
-Since not many people have access to Industrial equipment I build the application to insert a few static fields for testing and integration with your own equipment. There exists many node to import for communication with devices over MQTT, WiFi, Bluethooth Ethernet and Modbus-TCP
+My project will integrate with an industrial water analyzer typically used in drinking water systems to measure water quality. This device allows the connection of multiple sensors/probes to meausure, for instance pH Chlorine and ORP.
+Since not many people have access to Industrial equipment I build the application to insert a few static fields for testing and integration with your own equipment. There exists many node to import for communication with devices over MQTT, WiFi, Bluethooth Ethernet and Modbus-TCP etc.
+
 A Raspberry Pi will be used to run the Node-Red platform executing the following tasks.
 * Sending sensor data to the IOTA Tangle using [IOTA Streams](https://github.com/iotaledger/streams)
-* Have the device be its own “Economic Agent” with and IOTA wallet  so that it can receive payment from interested parties in exchange for the sensor      data stored on the tangle.
+* Have the device be its own “Economic Agent” with and IOTA wallet so that it can receive payments from interested parties in exchange for the sensor      data stored on the tangle.
 * Since this instrument can detect a probe calibration event it can then also send payments to humans for the calibration service it received.
 * Issue the device a Decentralized Digital identity. DiD using [IOTA Identities](https://github.com/iotaledger/identity.rs)
-* Utilize Verifiable Credentials, the service company can attach a VC to the sensors DiD to certify that the probes have been calibrated and the data reaching the tangle is accurate. Any entity interested in the data can then also verify the accuracy of the data by querying the history of the senors VC showing all past calibration certificates. 
-Now we can truly have trust and transparency on the water quality data available
+* Utilize Verifiable Credentials. The service company can attach a VC to the sensor's DiD to certify that the probes have been calibrated and the data reaching the tangle is accurate. Any entity interested in the data can then also verify the accuracy of the data by querying the history of the sensor's VC showing all past calibration certificates. 
+Now we can truly have trust and transparency on the water quality data available.
 
 ## Why did I use Decentralized Identifiers and Verifiable Credentials in my project?
 
