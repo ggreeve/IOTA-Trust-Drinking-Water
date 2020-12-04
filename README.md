@@ -1,7 +1,7 @@
 # Integrate Everything into IOTA Hackathon project submission.
 ![cover](https://github.com/ggreeve/IOTA-Trust-Drinking-Water/blob/main/images/cover.png/?raw=true)
 ## Personal Introduction
-I am a Controls Engineer that designs, configures and integrates industrial control systems to include PLC's amd SCADA systems. I have been following the IOTA Foundations Tangle project for a few years now and find the technology fascinating. I was immediately attracted to this project since it requires no fees to interacting with their Distributed Ledger Technology called the Tangle, there are so many use cases that require micro payments and DLT, IOTA makes this possible. 
+I am a Controls Engineer that designs, configures and integrates industrial control systems to include PLC's and SCADA systems. I have been following the IOTA Foundations Tangle project for a few years now and find the technology fascinating. I was immediately attracted to this project since it requires no fees to interacting with their Distributed Ledger Technology called the Tangle, there are so many use cases that require micro payments and DLT, IOTA makes this possible. 
 
 ## Goal
 Introduce Node-Red to the IOTA community, Node-Red was developed by IBM with IoT in mind. If you are a non-coder and would like to build your own Proof-of-Concept to interact with the Tangle this will be of of great interest to you.
@@ -13,7 +13,7 @@ With the release of IoT2Tangle's [Streams-http-gateway](https://github.com/iot2t
 I am now able to show that a non-coder / tinkerer like me can do some pretty cool stuff with a Raspberry Pi, Node-Red and the IOTA Tangle
 
 ## Showcase
-My project will integrate with an industrial water analyzer topically used in drinking water systems to measure water quility. This device allows the connection of multiple sensors/probes to meausure, for instance pH Chlorine and ORP.
+My project will integrate with an industrial water analyzer typically used in drinking water systems to measure water quility. This device allows the connection of multiple sensors/probes to meausure, for instance pH Chlorine and ORP.
 Since not many people have access to Industrial equipment I build the application to insert a few static fields for testing and integration with your own equipment. There exists many node to import for communication with devices over MQTT, WiFi, Bluethooth Ethernet and Modbus-TCP
 A Raspberry Pi will be used to run the Node-Red platform executing the following tasks.
 * Sending sensor data to the IOTA Tangle using [IOTA Streams](https://github.com/iotaledger/streams)
