@@ -1,7 +1,7 @@
 # Integrate Everything into IOTA Hackathon project submission.
 ![cover](https://github.com/ggreeve/IOTA-Trust-Drinking-Water/blob/main/images/cover.png/?raw=true)
 ## Personal Introduction
-I am a Controls Engineer that designs, configures and integrates industrial control systems to include PLC's and SCADA systems. I have been following the IOTA Foundations Tangle project for a few years now and find the technology fascinating. I was immediately attracted to this project since it requires no fees to interacting with their Distributed Ledger Technology called the Tangle, there are so many use cases that require micro payments and DLT, IOTA makes this possible. 
+I am a Controls Engineer that designs, configures and integrates industrial control systems that include PLC's and SCADA systems. I have been following the IOTA Foundations Tangle project for a few years now and find the technology fascinating. I was immediately attracted to this project since it requires no fees to interact with their Distributed Ledger Technology called the Tangle, there are so many use cases that will require micro payments and DLT, IOTA makes this now possible. 
 
 ## Goal
 Introduce Node-Red to the IOTA community, Node-Red was developed by IBM with IoT in mind. If you are a non-coder and would like to build your own Proof-of-Concept to interact with the Tangle this will be of of great interest to you.
